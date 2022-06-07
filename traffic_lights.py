@@ -1,37 +1,30 @@
-import RPi.GPIO as GPIO
-import time
+from gpiozero import LED, Button
+from time import sleep
+from signal import pause
 
-GPIO.setmode(GPIO.BCM)
+red = LED(17)
+yellow = LED(27)
+green = LED(22)
 
-GPIO.setup(17, GPIO.OUT) #red
-GPIO.setup(27, GPIO.OUT) #yellow
-GPIO.setup(22, GPIO.OUT) #green
+button = Button(23)
 
-GPIO.setup(23, GPIO.IN, pull_up_down=GPIO.PUD_DOWN) #button
-
-GPIO.output(17,GPIO.LOW)
-GPIO.output(27,GPIO.LOW)
-GPIO.output(22,GPIO.HIGH) #green light always on
-
-while True:
-    if GPIO.input(23) == GPIO.HIGH:
-        print("Button pushed")
-        time.sleep(0.5)
-        pedestrian()
-        time.sleep(15)
+red.off()
+yellow.off()
+green.on()
 
 def pedestrian():
     #go from green to yellow
-    GPIO.output(22, GPIO.LOW)
-    GPIO.output(27, GPIO.HIGH)
-    time.sleep(3)
-    
+    green.off()
+    yellow.on()
+    sleep(5)
     #go from yellow to red
-    GPIO.output(27, GPIO.LOW)
-    GPIO.output(17, GPIO.HIGH)
-    time.sleep(8)
+    yellow.off()    
+    red.on()
+    sleep(15)
+    red.off()
+    green.on()
+
     
-    #red back to green
-    GPIO.output(17, GPIO.LOW)
-    GPIO.output(22, GPIO.HIGH)
-    time.sleep(3)
+while True:
+    button.when_pressed = pedestrian
+    sleep(15)
