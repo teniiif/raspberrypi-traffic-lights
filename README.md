@@ -1,10 +1,6 @@
 # Raspberry Pi Traffic Lights
 
 <p align="center">
-<img width="400" src="https://user-images.githubusercontent.com/85775364/172287368-cde8e429-58db-4ac0-9074-8d4f8e088de3.jpg" alt="traffic_light" >
-</p>
-
-<p align="center">
 <img width="500" src="https://user-images.githubusercontent.com/85775364/172915931-a915d0c7-7b19-415f-9816-9038616b1f02.jpg" alt="traffic_light" >
 </p>
 <p align="center">
