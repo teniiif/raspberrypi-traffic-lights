@@ -7,9 +7,16 @@
 <p align="center">
 <img width="500" src="https://user-images.githubusercontent.com/85775364/172915931-a915d0c7-7b19-415f-9816-9038616b1f02.jpg" alt="traffic_light" >
 </p>
+<p align="center">
+  Wiring Diagram
+</p>
 
 <p align="center">
 <img width="500" src="https://user-images.githubusercontent.com/85775364/172916402-3a96996f-d9ab-4469-a086-c2415ff230a8.jpg" alt="traffic_light" >
+</p>
+
+<p align="center">
+  Schematic
 </p>
 
 ## Materials Used
