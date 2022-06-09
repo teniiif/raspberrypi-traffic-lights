@@ -1,11 +1,16 @@
 # Raspberry Pi Traffic Lights
 
 <p align="center">
-<img width="400" align="center" src="https://user-images.githubusercontent.com/85775364/172287368-cde8e429-58db-4ac0-9074-8d4f8e088de3.jpg" alt="traffic_light" >
+<img width="400" src="https://user-images.githubusercontent.com/85775364/172287368-cde8e429-58db-4ac0-9074-8d4f8e088de3.jpg" alt="traffic_light" >
 </p>
 
-![Traffic Lights_bb](https://user-images.githubusercontent.com/85775364/172915931-a915d0c7-7b19-415f-9816-9038616b1f02.jpg)
-![Traffic Lights_schem](https://user-images.githubusercontent.com/85775364/172916402-3a96996f-d9ab-4469-a086-c2415ff230a8.jpg)
+<p align="center">
+<img width="500" src="https://user-images.githubusercontent.com/85775364/172915931-a915d0c7-7b19-415f-9816-9038616b1f02.jpg" alt="traffic_light" >
+</p>
+
+<p align="center">
+<img width="500" src="https://user-images.githubusercontent.com/85775364/172916402-3a96996f-d9ab-4469-a086-c2415ff230a8.jpg" alt="traffic_light" >
+</p>
 
 ## Materials Used
 * Raspberry Pi
