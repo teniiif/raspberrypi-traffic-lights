@@ -12,21 +12,16 @@ The traffic light follows the sequence for a steady traffic light and allows for
 * 5 male-to-female jumper wires
 * 3 male to male jumper wires
 
+
 The images below show the wiring diagram as well as the schematics for the traffic light.
 
 <p align="center">
 <img width="500" src="https://user-images.githubusercontent.com/85775364/172915931-a915d0c7-7b19-415f-9816-9038616b1f02.jpg" alt="traffic_light" >
-</p>
-
-<p align="center">
+</p> <p align="center">
   Wiring Diagram
-</p>
-
-<p align="center">
+</p> <p align="center">
 <img width="500" src="https://user-images.githubusercontent.com/85775364/172916402-3a96996f-d9ab-4469-a086-c2415ff230a8.jpg" alt="traffic_light" >
-</p>
-
-<p align="center">
+</p><p align="center">
   Schematic
 </p>
 
