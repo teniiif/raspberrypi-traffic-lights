@@ -1,17 +1,25 @@
 # Raspberry Pi Traffic Lights
 ## Overview
 
-The traffic light follows the sequence for a steady traffic light and allows for a pedestrian crosswalk. The light remains steady until "someone" pushes the button. After which, the green light changes to yellow as with most traffic lights and then changes to red. The light stays red for a certain amount of time which allows the pedestrian to cross the road safely and then it moves back to green. 
+The traffic light follows the sequence for a steady traffic light and allows for a pedestrian crosswalk. The light remains steady until "someone" pushes the button. After which, the green light changes to yellow for 5 seconds as with most traffic lights and then changes to red for 15 seconds. During hwich, the pedestrian should have crossed the road safely and then the light turns green again. 
 
 ## Materials Used
 * Raspberry Pi
 * Breadboard
 * 1 resistor (220 ohm)
-* 3 LEDs (1 red, 1 yellow. 1 green)
+* 3 LEDs (1 red, 1 yellow, 1 green)
 * 1 push button
 * 5 male-to-female jumper wires
 * 3 male to male jumper wires
 
+## Wiring 
+The table below ahows what the GPIO pins on the Raspberry Pi are connected to
+GPIO pin  | Component
+------------- | -------------
+GPIO 17  | Red LED
+GPIO 27 | Yellow LED
+GPIO 22  | Green LED
+GPIO 23 | Push Button
 
 The images below show the wiring diagram as well as the schematics for the traffic light.
 
