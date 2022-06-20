@@ -1,7 +1,7 @@
 # Raspberry Pi Traffic Lights
 ## Overview
 
-The traffic light follows the sequence for a steady traffic light and allows for a pedestrian crosswalk. The light remains steady until "someone" pushes the button. After which, the green light changes to yellow for 5 seconds as with most traffic lights and then changes to red for 15 seconds. During hwich, the pedestrian should have crossed the road safely and then the light turns green again. 
+The traffic light follows the sequence for a steady traffic light and allows for a pedestrian crosswalk. The light remains steady until "someone" pushes the button. After which, the green light changes to yellow for 5 seconds as with most traffic lights and then changes to red for 15 seconds. During which, the pedestrian should have crossed the road safely and then the light turns green again. 
 
 ## Materials Used
 * Raspberry Pi
