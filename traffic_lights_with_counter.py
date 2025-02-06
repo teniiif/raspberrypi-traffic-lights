@@ -13,12 +13,14 @@ display = LEDCharDisplay(17,27,22,23,24,25,16) #map a,b,c,d,e,f,g to respective 
 
 display.off() #initialize 7 segment display off
 
-red.off() #initialize LEDs off except green
+red.off() #initialize LEDs off
 yellow.off()
 green.on()
 
 def cross_time(seconds):
-    count_sequence = list(range(seconds, -1, -1))  # countdown to zero
+    count_sequence = list(range(seconds-1, -1, -1))  # countdown to zero
+    sleep (5)
+
     for x in count_sequence:
         display.value = str(x)
         sleep(1)
@@ -26,6 +28,7 @@ def cross_time(seconds):
 
 def pedestrian():
     sleep(10)
+    #print("yes")
     #wait 10 seconds then light turns from green to yellow
     green.off()
     yellow.on()
@@ -33,7 +36,7 @@ def pedestrian():
     #wait 10 seconds then light goes from yellow to red
     yellow.off()
     red.on()
-    cross_time(9)
+    cross_time(10)
     sleep(2)
     #wait 15 seconds for pedestrian to cross
     red.off()
